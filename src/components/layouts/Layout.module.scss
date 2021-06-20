@@ -1,0 +1,19 @@
+.page_container {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #c6b115;
+
+  .page_header_container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .page_body_container {
+    width: 70%;
+    align-self: center;
+  }
+}
