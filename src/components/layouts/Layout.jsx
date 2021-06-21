@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../elements";
 import styles from "./Layout.module.scss";
 
-const Layout = ({ children }) => {
+export const Layout = ({ children }) => {
   return (
     <div className={styles.page_container}>
       <Navbar />
@@ -10,5 +10,3 @@ const Layout = ({ children }) => {
     </div>
   );
 };
-
-export default Layout;

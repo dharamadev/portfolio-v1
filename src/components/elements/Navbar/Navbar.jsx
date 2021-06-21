@@ -12,7 +12,10 @@ const Navbar = () => {
     <div className={styles.navbar_container}>
       <nav className={styles.navbar_navbar}>
         <div className={styles.navbar_mobile_head}>
-          <div className={styles.navbar_logo}>
+          <div
+            className={styles.navbar_logo}
+            onClick={() => setColapsed(colapsed ? colapsed : !colapsed)}
+          >
             <Link href="/">D</Link>
           </div>
           <div

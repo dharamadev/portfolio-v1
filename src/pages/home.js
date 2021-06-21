@@ -1,9 +1,10 @@
-import styles from "../../styles/Home.module.scss";
+import React from "react";
+import Introduction from "../components/Introduction";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Introduction />
+    </>
   );
 }

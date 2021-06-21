@@ -3,20 +3,20 @@
   height: 5rem;
   nav {
     display: flex;
-    justify-content: space-around;
-    background: #222;
-    // color: #ccc;
+    justify-content: space-between;
+    padding: 0rem 3rem 0rem 3rem;
     font-size: small;
     align-items: center;
+
     .navbar_mobile_head {
       display: flex;
 
       .navbar_logo {
         font-size: large;
         font-weight: bold;
-        border: 0.1rem solid #c6b115;
         border-radius: 20%;
         background: #000;
+        border: 0.1rem solid #c5c6c7;
         a {
           box-sizing: border-box;
           display: block;
@@ -38,7 +38,7 @@
       }
     }
     .navbar_resume {
-      border: 1px solid #c6b115;
+      border: 1px solid #c5c6c7;
       border-radius: 10%;
       padding: 0.5rem 0.6rem 0.5rem 0.6rem;
     }
@@ -62,10 +62,10 @@
     nav {
       display: flex;
       flex-direction: column;
-      background: #222;
-      // color: #ccc;
       font-size: small;
       align-items: center;
+      padding: 0rem 1rem 0rem 1rem;
+
       .navbar_mobile_head {
         width: 100%;
         display: flex;
@@ -106,7 +106,7 @@
       }
       ul {
         z-index: 100;
-        padding: 0;
+        padding: 1rem 0 1rem 0;
         margin: 0;
         width: 100%;
         height: auto;
@@ -119,19 +119,18 @@
         justify-content: center;
         -webkit-box-align: center;
         align-items: center;
-        background: #222;
+        background: #0b0c10;
         box-shadow: -4px 0px 1px -6px;
         top: 3.5rem;
         li {
           width: 100%;
-          padding: 0;
           margin: 0;
           align-self: center;
           a {
             display: block;
             text-align: center;
             width: 100%;
-            padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+            padding: 0.7rem 0.8rem 0.7rem 0.8rem;
           }
         }
         li:hover {
