@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Introduction.module.scss";
-import Link from "next/link";
 import Router from "next/router";
 
 export const Introduction = () => {
