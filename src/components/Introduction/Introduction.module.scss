@@ -22,6 +22,46 @@
     width: 60%;
     color: #65c6c7;
   }
+
+  .hire_me_button_wrapper {
+    padding: 1rem 0rem;
+    .button {
+      position: relative;
+      background-color: #116aad;
+      border: none;
+      font-size: 28px;
+      color: #FFFFFF;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 0.5rem;
+    }
+    
+    .button:after {
+      content: "";
+      background: #66fcf1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px!important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+  }
 }
 
 @media screen and (min-width: 280px) and (max-width: 720px) {

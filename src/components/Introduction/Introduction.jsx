@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Introduction.module.scss";
+import Link from "next/link";
+import Router from "next/router";
 
 export const Introduction = () => {
   return (
@@ -13,12 +15,20 @@ export const Introduction = () => {
       </span>
       <span className={styles.intro_container_details}>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
-          deserunt amet repellendus velit id reprehenderit atque cum animi
-          nesciunt voluptatem recusandae repellat, quae nobis laboriosam hic
-          temporibus obcaecati quaerat numquam?
+        A strategic professional with a dynamic career of 6 years that reflects pioneering experience from Requirement gathering to Deployment using technologies Java, Spring Boot, Spring Data JPA, Hibernate, MongoDB, SQL, Angular, SASS, CSS, HTML, and have a good knowledge and experience in project development frameworks and tools e.g. Agile, CI/CD and TDD.
         </p>
+      </span>
+      <span className={styles.hire_me_button_wrapper}>
+        <button className={styles.button} onClick={redirectContact}>Contact me</button>
+      </span>
+      <span>
+        <img  alt="Github" src="./github.svg" />
+        <img  alt="Github" src="./linkedin.svg" />
       </span>
     </div>
   );
 };
+
+function redirectContact() {
+  Router.push("/contact");
+}
