@@ -79,6 +79,7 @@ const Contact = () => {
       setShowFailureMessage(false);
       setButtonText("Send");
     }
+    console.log(fullname, email, subject, message);
   };
   return (
     <div className={styles.container}>

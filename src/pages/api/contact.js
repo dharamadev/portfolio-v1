@@ -8,6 +8,7 @@ async function sendEmail(req, res) {
       to: "youremail@gmail.com", 
       from: "youremail@gmail.com", 
       subject: `[Lead from website] : ${req.body.subject}`,
+      text: `${req.body.message}`,
       html: `<p>${req.body.message}</p>`,
     });
   } catch (error) {
