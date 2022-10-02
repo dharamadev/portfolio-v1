@@ -55,7 +55,7 @@ const Navbar = () => {
             className={styles.navbar_resume}
             onClick={() => setColapsed(!colapsed)}
           >
-            <Link href="/contact">Resume</Link>
+            <Link href="https://drive.google.com/uc?export=download&id=1TU67syaWgEa4qv6mQiOV12Ush_dkBWR0">Resume</Link>
           </li>
         </ul>
       </nav>
